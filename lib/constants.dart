@@ -6,3 +6,5 @@ const kTransitionDuration = Duration(seconds: 1);
 const kTransitionDelay = Duration(milliseconds: 250);
 const kGtSectraFine = 'Gt Sectra Fine';
 const kGilroyBold = 'Gilroy-Bold';
+
+const kPaddingHorizintal = 30.0;
