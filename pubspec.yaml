@@ -62,13 +62,14 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Gilroy-Bold
+    - family: Gilroy_Bold
       fonts:
         - asset: assets/fonts/Gilroy-Regular.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
+
+    - family: GT_Sectra_Fine
+      fonts:
+        - asset: assets/fonts/GT Sectra Fine Regular.ttf
+
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
