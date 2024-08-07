@@ -36,6 +36,7 @@ dependencies:
   font_awesome_flutter: ^10.7.0
 
 dev_dependencies:
+  dartz: ^0.10.1
   flutter_lints: ^3.0.0
   flutter_test:
     sdk: flutter
@@ -70,7 +71,6 @@ flutter:
     - family: GT_Sectra_Fine
       fonts:
         - asset: assets/fonts/GT Sectra Fine Regular.ttf
-
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
