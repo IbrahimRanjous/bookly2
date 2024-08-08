@@ -11,7 +11,6 @@ class HomeViewbody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const CustomScrollView(
-      physics: BouncingScrollPhysics(),
       slivers: [
         SliverToBoxAdapter(
           child: Column(
@@ -23,7 +22,7 @@ class HomeViewbody extends StatelessWidget {
               ),
               FeaturedBooksListView(),
               SizedBox(
-                height: 50,
+                height: 30,
               ),
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: kPaddingHorizintal),
