@@ -4,6 +4,7 @@ abstract class Failure {
   final String errMesage;
 
   Failure(this.errMesage);
+  String getErrMesage() => errMesage;
 }
 
 class ServerFailure extends Failure {
