@@ -22,7 +22,8 @@ class BookListViewItem extends StatelessWidget {
         child: Row(
           children: [
             CustomBookImage(
-                imageUrl: bookModel.volumeInfo.imageLinks.thumbnail),
+                imageUrl: bookModel.volumeInfo.imageLinks?.thumbnail ??
+                    'https://unsplash.com/photos/macro-photo-of-five-assorted-books-slItfWbhijc'),
             const SizedBox(
               width: 30,
             ),
@@ -44,7 +45,7 @@ class BookListViewItem extends StatelessWidget {
                     height: 3,
                   ),
                   Text(
-                    bookModel.volumeInfo.authors![0],
+                    bookModel.volumeInfo.authors?[0] ?? 'Unknown',
                     style: Styles.textStyle14,
                   ),
                   const SizedBox(
